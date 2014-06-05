@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MsFakesSample.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MsFakesSample.Fakes.ShimLog">
+            <summary>Shim type of MsFakesSample.Log</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLog.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLog.#ctor(MsFakesSample.Log)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLog.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLog.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.ConstructorString">
+            <summary>Sets the shim of Log.Log(String message)</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.CreatedDateGet">
+            <summary>Sets the shim of Log.get_CreatedDate()</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.CreatedDateSetDateTime">
+            <summary>Sets the shim of Log.set_CreatedDate(DateTime value)</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.MessageGet">
+            <summary>Sets the shim of Log.get_Message()</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.MessageSetString">
+            <summary>Sets the shim of Log.set_Message(String value)</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.ShimLog.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.AllInstances.CreatedDateGet">
+            <summary>Sets the shim of Log.get_CreatedDate()</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.AllInstances.CreatedDateSetDateTime">
+            <summary>Sets the shim of Log.set_CreatedDate(DateTime value)</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.AllInstances.MessageGet">
+            <summary>Sets the shim of Log.get_Message()</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLog.AllInstances.MessageSetString">
+            <summary>Sets the shim of Log.set_Message(String value)</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.ShimLogWritter">
+            <summary>Shim type of MsFakesSample.LogWritter</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLogWritter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLogWritter.#ctor(MsFakesSample.LogWritter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLogWritter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLogWritter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.ShimLogWritter.Bind(MsFakesSample.ILogWritter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLogWritter.AddLog">
+            <summary>Sets the shim of LogWritter.AddLog()</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLogWritter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLogWritter.ConstructorIDataProviderIFileWriter">
+            <summary>Sets the shim of LogWritter.LogWritter(IDataProvider dataProvider, IFileWriter fileWriter)</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.ShimLogWritter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.ShimLogWritter.AllInstances.AddLog">
+            <summary>Sets the shim of LogWritter.AddLog()</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.StubIDataProvider">
+            <summary>Stub type of MsFakesSample.IDataProvider</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubIDataProvider.#ctor">
+            <summary>Initializes a new instance of type StubIDataProvider</summary>
+        </member>
+        <member name="F:MsFakesSample.Fakes.StubIDataProvider.GetData">
+            <summary>Sets the stub of IDataProvider.GetData()</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubIDataProvider.mfs::MsFakesSample#IDataProvider#GetData">
+            <summary>Sets the stub of IDataProvider.GetData()</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.StubIFileWriter">
+            <summary>Stub type of MsFakesSample.IFileWriter</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubIFileWriter.#ctor">
+            <summary>Initializes a new instance of type StubIFileWriter</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubIFileWriter.mfs::MsFakesSample#IFileWriter#WriteFile(System.Object)">
+            <summary>Sets the stub of IFileWriter.WriteFile(Object obj)</summary>
+        </member>
+        <member name="F:MsFakesSample.Fakes.StubIFileWriter.WriteFileObject">
+            <summary>Sets the stub of IFileWriter.WriteFile(Object obj)</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.StubILogWritter">
+            <summary>Stub type of MsFakesSample.ILogWritter</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubILogWritter.#ctor">
+            <summary>Initializes a new instance of type StubILogWritter</summary>
+        </member>
+        <member name="F:MsFakesSample.Fakes.StubILogWritter.AddLog">
+            <summary>Sets the stub of ILogWritter.AddLog()</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubILogWritter.mfs::MsFakesSample#ILogWritter#AddLog">
+            <summary>Sets the stub of ILogWritter.AddLog()</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.StubLog">
+            <summary>Stub type of MsFakesSample.Log</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubLog.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubLog.InitializeStub">
+            <summary>Initializes a new instance of type StubLog</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.StubLog.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.StubLog.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.StubLog.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MsFakesSample.Fakes.StubLogWritter">
+            <summary>Stub type of MsFakesSample.LogWritter</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubLogWritter.#ctor(MsFakesSample.IDataProvider,MsFakesSample.IFileWriter)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MsFakesSample.Fakes.StubLogWritter.InitializeStub">
+            <summary>Initializes a new instance of type StubLogWritter</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.StubLogWritter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.StubLogWritter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MsFakesSample.Fakes.StubLogWritter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

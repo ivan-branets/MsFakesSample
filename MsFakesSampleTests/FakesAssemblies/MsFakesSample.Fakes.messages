@@ -1,0 +1,3 @@
+C:\Users\i.branets\Desktop\MsFakesSample\MsFakesSampleTests\Fakes\MsFakesSample.fakes : warning : Cannot generate shim for MsFakesSample.ILogWritter: type is an interface.
+C:\Users\i.branets\Desktop\MsFakesSample\MsFakesSampleTests\Fakes\MsFakesSample.fakes : warning : Cannot generate shim for MsFakesSample.IDataProvider: type is an interface.
+C:\Users\i.branets\Desktop\MsFakesSample\MsFakesSampleTests\Fakes\MsFakesSample.fakes : warning : Cannot generate shim for MsFakesSample.IFileWriter: type is an interface.
